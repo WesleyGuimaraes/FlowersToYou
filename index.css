@@ -35,8 +35,12 @@ body {
   position: relative;
   transform: scale(0.9);
 }
-
-.flower {
+@media (max-width: 500px) {
+  .flowers {
+    position: relative;
+    transform: scale(1.2);
+  }
+}.flower {
   position: absolute;
   bottom: 10vmin;
   transform-origin: bottom center;
